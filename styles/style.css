@@ -157,7 +157,7 @@ body {
 
 .lots__card-list-item {
   width: 334px;
-  min-height: 563px;
+  min-height: 596px;
 }
 
 .card-link {
@@ -222,7 +222,7 @@ body {
   display: grid;
   grid-template-columns: 334px 1fr;
   gap: 25px;
-  padding: 181px 24px 0;
+  padding: 120px 24px 0;
 }
 
 .about__logo {
