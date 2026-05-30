@@ -258,12 +258,13 @@ body {
 
 .footer {
   display: grid;
-  grid-template-columns: 1fr min-content 1fr;
+  grid-template-columns: 1fr 200px 1fr;
   align-items: start;
   padding: 180px 50px 82px;
 }
 
 .footer__menu {
+  justify-self: center;
   text-align: center;
 }
 
@@ -275,6 +276,7 @@ body {
   font-size: 18px;
   line-height: 1.35;
   text-underline-offset: 4px;
+  white-space: nowrap;
 }
 
 .footer__menu-link_active {
