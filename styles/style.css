@@ -124,13 +124,14 @@ body {
   width: 256px;
   min-height: 51px;
   border: 1px solid currentColor;
-  padding: 12px 32px;
+  padding: 12px 31px;
   color: #fff;
   font-family: 'Raleway';
   font-size: 22px;
   line-height: 1;
   text-align: center;
   text-transform: uppercase;
+  white-space: nowrap;
   background-color: transparent;
   cursor: pointer;
 }
